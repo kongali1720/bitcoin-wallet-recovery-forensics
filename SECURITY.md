@@ -1,0 +1,9 @@
+- Authorized use only
+- Jangan upload wallet.dat
+- Jangan upload private key
+- Jangan upload WIF
+- Jangan upload seed/mnemonic
+- Jangan upload password
+- Jangan membuka vulnerability melalui public issue
+- Responsible disclosure
+- Incident response
