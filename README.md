@@ -94,7 +94,7 @@ The source documentation reports a recovered balance of **30.99169234 BTC**.
 
 ```json
 {
-  "walletname": "aiman",
+  "walletname": "null",
   "walletversion": 60000,
   "format": "bdb",
   "balance": 30.99169234,
