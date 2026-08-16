@@ -45,7 +45,7 @@
 > **Network:** Bitcoin Mainnet
 > **Wallet Format:** Berkeley DB (BDB) v1.8
 > **Wallet Type:** Legacy / Non-HD
-> **Signature Type:** Single-Signature
+> **Signature Type:** Single-Signature (semi-hide)
 
 ---
 
