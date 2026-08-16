@@ -959,62 +959,40 @@ The source material contains additional cryptographic recovery artifacts, includ
 
 Those values are **intentionally excluded from this README**.
 
-A public GitHub repository should contain:
+A public GitHub repository should contain only sanitized, non-sensitive project information.
 
-```text
-Documentation
-       +
-Architecture
-       +
-Verification
-       +
-Audit Information
-       +
-Sanitized Metadata
-```
+```mermaid
 
-and **never**:
+flowchart TD
+    A["PUBLIC GITHUB REPOSITORY"]
 
-```text
-Private Keys
-       +
-WIF
-       +
-Seed Phrase
-       +
-Mnemonic
-       +
-Wallet Password
-       +
-Master Private Key
-```
+    A --> B["Documentation"]
+    A --> C["Architecture"]
+    A --> D["Verification"]
+    A --> E["Audit Information"]
+    A --> F["Sanitized Metadata"]
 
----
+    B --> G["SAFE FOR PUBLIC REPOSITORY"]
+    C --> G
+    D --> G
+    E --> G
+    F --> G
 
-# 🏁 Conclusion
+    A --> H["SENSITIVE CRYPTOGRAPHIC MATERIAL"]
 
-This documentation describes a controlled Bitcoin wallet recovery and verification architecture centered around:
+    H --> I["Private Keys"]
+    H --> J["WIF"]
+    H --> K["Seed Phrase"]
+    H --> L["Mnemonic"]
+    H --> M["Wallet Password"]
+    H --> N["Master Private Key"]
 
-```text
-Evidence Preservation
-        ↓
-Wallet Identification
-        ↓
-Metadata Analysis
-        ↓
-Address & Transaction Analysis
-        ↓
-Authorized Recovery
-        ↓
-Blockchain Verification
-        ↓
-Balance Reconciliation
-        ↓
-Ownership Verification
-        ↓
-Security Audit
-        ↓
-Encrypted Archival
+    I --> O["NEVER COMMIT TO GITHUB"]
+    J --> O
+    K --> O
+    L --> O
+    M --> O
+    N --> O
 ```
 
 The documented recovery result is:
