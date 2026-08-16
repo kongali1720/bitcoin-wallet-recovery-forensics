@@ -1,0 +1,124 @@
+# ==========================================
+# BITCOIN WALLET / CRYPTOGRAPHIC SECRETS
+# ==========================================
+
+wallet.dat
+*.wallet
+*.wif
+*.key
+*.pem
+*.seed
+*.mnemonic
+*.seedphrase
+*.xprv
+*.xpriv
+*.xpub
+
+# ==========================================
+# RECOVERY SECRETS
+# ==========================================
+
+private_keys.txt
+private-key.txt
+privatekeys.txt
+
+master_keys.txt
+master-key.txt
+
+account_keys.txt
+account-key.txt
+
+spending_keys.txt
+spending-key.txt
+
+staking_keys.txt
+staking-key.txt
+
+mnemonic.txt
+mnemonics.txt
+seed.txt
+seeds.txt
+
+recovery_secrets.txt
+recovery-password.txt
+passwords.txt
+credentials.txt
+
+# ==========================================
+# BITCOIN CORE
+# ==========================================
+
+blocks/
+chainstate/
+wallets/
+
+bitcoin.conf
+debug.log
+db.log
+
+# ==========================================
+# DATABASES
+# ==========================================
+
+*.db
+*.sqlite
+*.sqlite3
+*.mdb
+
+# ==========================================
+# LOGS
+# ==========================================
+
+*.log
+recovery.log
+wallet-debug.log
+audit-private.log
+
+# ==========================================
+# ENVIRONMENT / CREDENTIALS
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+*.secret
+secrets/
+credentials/
+
+# ==========================================
+# BACKUPS
+# ==========================================
+
+*.bak
+*.backup
+*.old
+
+# ==========================================
+# OS / IDE
+# ==========================================
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ==========================================
+# PYTHON
+# ==========================================
+
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# ==========================================
+# TEMPORARY FILES
+# ==========================================
+
+tmp/
+temp/
+*.tmp
+*.temp
