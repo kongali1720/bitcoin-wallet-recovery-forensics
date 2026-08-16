@@ -1,0 +1,23 @@
+# Normalize line endings
+* text=auto
+
+# Markdown
+*.md text
+
+# Python
+*.py text
+
+# Shell
+*.sh text eol=lf
+
+# JSON / YAML
+*.json text
+*.yaml text
+*.yml text
+
+# Binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
